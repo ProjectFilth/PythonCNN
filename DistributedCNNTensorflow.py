@@ -67,15 +67,15 @@ img_width = 28
 colour_chanels = 1
 colour_option = 'grayscale'
 #title = "Digits "
-#data_dir = "/Users/xfilt/Year3/FinalProjectTensorflow/FinalProjectTensorflow/Datasets/Digits"
-#save_dir = "/Users/xfilt/Year3/FinalProjectTensorflow/FinalProjectTensorflow/ModelSave/Digits"
+#data_dir = "/home/ks222/chrisknight/PythonCNN/Datasets/Digits"
+#save_dir = "/home/ks222/chrisknight/PythonCNN/ModelSave/Digits"
 title = "Fashion "
-train_dir = "/Users/xfilt/Year3/DesktopCNNTensorflow/DesktopCNNTensorflow/Datasets/Fashion/train"
-val_dir = "/Users/xfilt/Year3/DesktopCNNTensorflow/DesktopCNNTensorflow/Datasets/Fashion/test"
-save_dir = "/Users/xfilt/Year3/DesktopCNNTensorflow/DesktopCNNTensorflow/ModelSave/Fashion"
+train_dir = "/home/ks222/chrisknight/PythonCNN/Datasets/Fashion/train"
+val_dir = "/home/ks222/chrisknight/PythonCNN/Datasets/Fashion/test"
+save_dir = "/home/ks222/chrisknight/PythonCNN/ModelSave/Fashion"
 #title = "EuroSat "
-#data_dir = "/Users/xfilt/Year3/FinalProjectTensorflow/FinalProjectTensorflow/Datasets/EuroSat"
-#save_dir = "/Users/xfilt/Year3/FinalProjectTensorflow/FinalProjectTensorflow/ModelSave/EuroSat"
+#data_dir = "/home/ks222/chrisknight/PythonCNN/Datasets/EuroSat"
+#save_dir = "/home/ks222/chrisknight/PythonCNN/ModelSave/EuroSat"
 
 
 multi_training = training_data(train_dir, batch_size, img_height, img_width, colour_option)
